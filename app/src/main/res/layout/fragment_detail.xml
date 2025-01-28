@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.DetailFragment">
+<!--    android:background="@color/yellowLightTheme"-->
+
+
+    <TextView
+        android:id="@+id/idDetailFragment"
+        style="@style/styleIDtv"
+        android:gravity="center"
+        android:text="s"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <ImageView
+        android:id="@+id/imgeViewDetailFragment"
+        style="@style/layoutWrapContent"
+        android:layout_marginTop="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idDetailFragment"
+        app:layout_constraintVertical_bias="0.06"
+        tools:src="@tools:sample/avatars" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="6sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgeViewDetailFragment">
+
+        <TableRow
+            style="@style/tableRowDetail">
+
+            <TextView
+                android:id="@+id/nameTVDetailFragment"
+                android:text="@string/sName"
+                style="@style/titleAttri"/>
+
+            <Space
+                style="@style/spaceItemTableRow"/>
+
+            <TextView
+                android:id="@+id/nameDetailFragment"
+                android:text="@string/sName"
+                style="@style/tableDataDetail"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowDetail">
+
+            <TextView
+                android:id="@+id/typeTVDetailFragment"
+                android:text="@string/sType"
+                style="@style/titleAttri"/>
+
+            <Space
+                style="@style/spaceItemTableRow"/>
+
+            <TextView
+                android:id="@+id/typeDetailFragment"
+                android:text="@string/sType"
+                style="@style/tableDataDetail"/>
+
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowDetail">
+
+            <TextView
+                android:id="@+id/heightTVDetailFragment"
+                android:text="@string/sHeight"
+                style="@style/titleAttri"/>
+
+            <Space
+                style="@style/spaceItemTableRow"/>
+
+            <TextView
+                android:id="@+id/heightDetailFragment"
+                android:text="@string/sHeight"
+                style="@style/tableDataDetail"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/tableRowDetail">
+
+            <TextView
+                android:id="@+id/weightTVDetailFragment"
+                android:text="@string/sWeight"
+                style="@style/titleAttri"/>
+
+            <Space
+                style="@style/spaceItemTableRow"/>
+
+            <TextView
+                android:id="@+id/weightDetailFragment"
+                android:text="@string/sWeight"
+                style="@style/tableDataDetail"/>
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

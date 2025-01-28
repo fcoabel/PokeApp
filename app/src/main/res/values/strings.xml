@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name" translatable="false">PokeApp</string>
+    <string name="sCaptured">Captured</string>
+    <string name="sPokedex">Pokedex</string>
+    <string name="sSettings">Settings</string>
+    <string name="sName">Name</string>
+    <string name="sType">Type</string>
+    <string name="sWeight">Weight</string>
+    <string name="sHeight">Height</string>
+    <string name="sLogIn">Log In</string>
+    <string name="sSignIn">Sign In</string>
+    <string name="sEmail" translatable="false">E-Mail</string>
+    <string name="sPassword">Password</string>
+    <string name="eEmptyEmail">Please, enter an email.</string>
+    <string name="eInvalidEmail">Invalid Email.</string>
+    <string name="eEmptyPassword">Please, enter a password.</string>
+    <string name="sUserName">User Name</string>
+    <string name="sWelcome">Welcome</string>
+    <string name="eEmptyUserName">Please, enter a user name.</string>
+    <string name="sUserAlreadyExists">"User already exists. "</string>
+    <string name="ePasswordLength">The password must contain at least 6 characters.</string>
+    <string name="eUserUnknow">The user does not exist. Please register first.</string>
+    <string name="eIncorrectPassword">The password is incorrect. Try again.</string>
+    <string name="sLogOut">Log Out</string>
+    <string name="sAbout">About...</string>
+    <string name="sLanguage">Language</string>
+    <string name="sAutor" translatable="false">Fco Abel Pelegrín Mañas</string>
+    <string name="sVersion">Version 1.0.0</string>
+    <string name="mCaptured">Pokemon captured.</string>
+    <string name="eCaptured">Couldn\'t captured.</string>
+
+
+</resources>

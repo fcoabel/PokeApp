@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="layoutMatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="layoutWrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="styleIDtv" parent="layoutWrapContent">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/redTheme</item>
+    </style>
+
+    <style name="tableRowDetail" parent="layoutMatchParent">
+        <item name="android:padding">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="spaceItemTableRow">
+        <item name="android:layout_width">75sp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="titleAttri" parent="layoutWrapContent">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blueTheme</item>
+    </style>
+
+
+    <style name="tableDataDetail" parent="layoutWrapContent">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="tableRowSettings" parent="layoutMatchParent">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="tableDataSettings" parent="layoutWrapContent">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="tableDataSettingsEnd" parent="tableDataSettings">
+        <item name="android:gravity">end</item>
+    </style>
+
+    <style name="baseEditText">
+        <item name="android:layout_width">287dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="styleEditTextEmail" parent="baseEditText">
+        <item name="android:hint">@string/sEmail</item>
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="styleEditTextPassword" parent="baseEditText">
+        <item name="android:hint">@string/sPassword</item>
+        <item name="android:inputType">textPassword</item>
+    </style>>
+
+    <style name="styleButtonSignIn" parent="layoutWrapContent">
+        <item name="android:backgroundTint">@color/blueTheme</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/sSignIn</item>
+    </style>>
+
+    <style name="styleButtonLogIn" parent="layoutWrapContent">
+        <item name="android:backgroundTint">@color/yellowTheme</item>
+        <item name="android:text">@string/sLogIn</item>
+    </style>
+
+
+    <style name="styleTextTitle" parent="layoutWrapContent">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/redTheme</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sCaptured">Capturados</string>
+    <string name="sPokedex">Pokédex</string>
+    <string name="sSettings">Ajustes</string>
+    <string name="sName">Nombre</string>
+    <string name="sType">Tipo</string>
+    <string name="sWeight">Peso</string>
+    <string name="sHeight">Altura</string>
+    <string name="sLogIn">Iniciar Sesión</string>
+    <string name="sSignIn">Registrar</string>
+    <string name="sPassword">Contraseña</string>
+    <string name="eEmptyEmail">Por favor, introduce un correo.</string>
+    <string name="eInvalidEmail">Correo inválido.</string>
+    <string name="eEmptyPassword">Por favor, introduce una contraseña.</string>
+    <string name="sUserName">Nombre de usuario</string>
+    <string name="sWelcome">Bienvenido</string>
+    <string name="eEmptyUserName">Por favor, introduzca un nombre de usuario.</string>
+    <string name="sUserAlreadyExists">"El usuario ya existe. "</string>
+    <string name="ePasswordLength">La contraseña debe contener al menos 6 caracteres.</string>
+    <string name="eUserUnknow">El usuario no existe. Por favor regístrese primero.</string>
+    <string name="eIncorrectPassword">La contraseña es incorrecta. Inténtalo de nuevo.</string>
+    <string name="sLogOut">Cerrar sesión</string>
+    <string name="sAbout">Acerca de...</string>
+    <string name="sLanguage">Idioma</string>
+    <string name="sVersion">Versión 1.0.0</string>
+    <string name="mCaptured">Pokemon capturado.</string>
+    <string name="eCaptured">No se pudo capturar.</string>
+</resources>

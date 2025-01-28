@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layoutMatchParent"
+    tools:context=".fragments.SettingsFragment"
+    android:orientation="vertical">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        style="@style/layoutWrapContent"
+        android:text="@string/sSettings"
+        android:textSize="20dp"
+        android:textColor="@color/blueTheme"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+
+        <TableRow
+            style="@style/tableRowSettings">
+            <TextView
+                style="@style/tableDataSettings"
+                android:text="@string/sLanguage"/>
+        </TableRow>
+
+        <TableRow android:id="@+id/trAbout"
+            style="@style/tableRowSettings">
+            <TextView
+                style="@style/tableDataSettings"
+                android:text="@string/sAbout"/>
+
+            <TextView
+                style="@style/tableDataSettingsEnd"
+                android:drawableEnd="@drawable/ic_chevron_right"
+                />
+        </TableRow>
+
+        <TableRow android:id="@+id/trLogOut"
+            style="@style/tableRowSettings">
+            <TextView
+                style="@style/tableDataSettings"
+                android:text="@string/sLogOut"/>
+            <TextView
+                style="@style/tableDataSettingsEnd"
+                android:drawableEnd="@drawable/ic_logout"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

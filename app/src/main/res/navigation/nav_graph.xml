@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/capturedPokemonsFragment">
+    <fragment
+        android:id="@+id/capturedPokemonsFragment"
+        android:name="com.example.pokeapp.fragments.CapturedPokemonsFragment"
+        android:label="fragment_captured_pokemons"
+        tools:layout="@layout/fragment_captured_pokemons" >
+        <action
+            android:id="@+id/action_capturedPokemonsFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pokedexFragment"
+        android:name="com.example.pokeapp.fragments.PokedexFragment"
+        android:label="fragment_pokedex"
+        tools:layout="@layout/fragment_pokedex" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.pokeapp.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_logInActivity"
+            app:destination="@id/logInActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.pokeapp.fragments.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+    <activity
+        android:id="@+id/logInActivity"
+        android:name="com.example.pokeapp.activities.LogInActivity"
+        android:label="LogInActivity">
+<!--        <action-->
+<!--            android:id="@+id/action_logInActivity_to_signInActivity"-->
+<!--            app:destination="@id/signInActivity" />-->
+    </activity>
+
+    <activity
+        android:id="@+id/signInActivity"
+        android:name="com.example.pokeapp.activities.SignInActivity"
+        android:label="SignInActivity" />
+</navigation>

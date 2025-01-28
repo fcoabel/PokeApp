@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/capturedPokemonsFragment"
+        android:icon="@drawable/ic_backpack"
+        android:title="@string/sCaptured"/>
+    <item
+        android:id="@+id/pokedexFragment"
+        android:icon="@drawable/ic_pokedex"
+        android:title="@string/sPokedex"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/sSettings"/>
+</menu>
